@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+li{
+	list-style-type:none;
+	}
+.album img{
+	width:640px;
+	height:360px;
+	}
+#container{
+	position:relative;
+	width:642px;
+	height:362px;
+	}
+#container .album{
+	position:relative;
+	width:640px;
+	height:360px;
+	overflow:hidden;
+	}
+#container .album ul{
+	position:absolute;
+	top:0;
+	left:0;
+	}
+#container .album li{
+	width:640px;
+	height:360px;
+	overflow:hidden;
+	}
+#container .num{
+	width:12px;
+	height:362px;
+	position:absolute;
+	right:10px;
+	top:25%;
+	}
+#container .num li{
+	width:10px;
+	height:10px;
+	border-radius:10px;
+	border:2px solid #fff;
+	background-color:transparent;
+	float:left;
+	cursor:pointer;
+	margin-top:15px;
+	overflow:hidden;
+	}
+#container .num li.current{
+	opacity:1;
+	background-color:#fff;
+	}
